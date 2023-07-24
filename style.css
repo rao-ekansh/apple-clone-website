@@ -1,0 +1,259 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'roboot',sans-serif;
+  text-decoration: none;
+}
+
+
+/*-- Navigation bar --*/
+nav{
+  width: 100%;
+  height: 48px;
+  background: #0C090A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin: 0 40px;
+}
+nav ul li a {
+  font-weight: normal;
+  color: #C0C0C0;
+  transition: 600ms;
+}
+nav ul li a:hover {
+  color: #FFFFFF;
+}
+p1{
+    widht: 100%;
+    height:48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+   }
+
+
+/*-- Section 1 --*/
+.mainPic{
+  width: 100%;
+  height: 700px;
+  background-image: url("https://www.apple.com/newsroom/images/product/iphone/standard/Apple-iPhone-14-Pro-iPhone-14-Pro-Max-hero-220907.jpg.og.jpg?202305231357");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .mainPic h1{
+  color: #fff;
+  font-weight: 300;
+  font-size: 50px;
+  justify-content: center;
+  align-items: center;
+}
+/*--- Iphones ---*/
+.iPhones{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+  cursor: pointer;
+}
+.iPhones h2{
+font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.container {
+  width: 1070px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+}
+.grid-item {
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: .5s;
+}
+.grid-item:hover {
+  background: #e1e1e1;
+}
+.grid-item img {
+  width: 100%;
+  height: 100%;
+}
+.item-detail {
+  margin: 20px 0;
+  text-align: center;
+}
+.item-detail p:last-child {
+  transition: .5s;
+  margin-top: 10px;
+}
+.grid-item:hover > .item-detail p:last-child {
+  color: #3498db;
+}
+
+/*--- iPad ---*/
+
+.grid-container {
+  width: 1070px;
+  height: auto;
+  padding: 0 0 0 350px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  background-color:#FFFFFF;
+  cursor: pointer;
+}
+
+.grid-container > div {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 30px;
+}
+.item img{
+ width: 320px;
+ height: 280px;
+}
+.item-detail{
+text-align: center;
+  font-size: 25px;
+}
+.item:hover > .item-detail p:last-child {
+  color: #3498db;
+}
+.head{
+font-size: 2rem;
+  font-weight: 250;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Footer CSS content */
+
+footer {
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-main {
+  width: 1070px;
+}
+.footer-detail {
+  font-size: .7rem;
+  color: #454545;
+  padding: 20px 0;
+  border-bottom: 1px solid #bdc3c7;
+}
+.footer-detail a {
+  color: #0C090A;
+  text-decoration: underline;
+}
+.footer-detail a:hover {
+  text-decoration: underline;
+}
+
+.footer-ul {
+  display: flex;
+  justify-content: space-between;
+  color: #454545;
+}
+.footer-ul ul {
+  list-style: none;
+}
+.footer-ul ul li {
+  margin: 7px 0;
+}
+.footer-ul ul li h4 {
+  color: #454545;;
+  font-size: .7rem;
+}
+.footer-ul ul li a {
+  color: #454545;
+  font-size: .7rem;
+}
+.footer-ul ul li a:hover {
+  text-decoration: underline; 
+}
+#mt {
+  padding-top: 30px;
+}
+.footer-contact {
+  border-bottom: 1px solid #bdc3c7;
+  padding: 12px 0;
+  margin: 10px 0;
+  color: #454545;
+  font-size: .7rem;
+}
+.footer-contact a {
+  color: #3498db;
+  text-decoration: underline;
+}
+.footer-contact a:hover {
+  text-decoration: underline;
+}
+.footer-copyright {
+  color: #454545;
+  font-size: .7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-copyright ul {
+  display: flex;
+  list-style: none;
+  width: auto;
+}
+.footer-copyright ul li {
+  margin: 0 10px;
+}
+.footer-copyright ul li a {
+  color: #454545;
+}
+.footer-copyright ul li a:hover {
+  text-decoration: underline; 
+}
+.vr {
+  height: 15px;
+  width: 1px;
+  background: #bdc3c7;
+}
+.footer-lang {
+  display: flex;
+}
+.footer-lang p {
+  margin: 0 10px;
+}
+.circle {
+  width: 15px;
+  height: 15px;
+}
+.circle img {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 50%;
+}
